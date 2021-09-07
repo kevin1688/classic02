@@ -11,6 +11,7 @@
 		664B987B26E25368007AADC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664B987A26E25368007AADC7 /* ContentView.swift */; };
 		664B987D26E2536A007AADC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664B987C26E2536A007AADC7 /* Assets.xcassets */; };
 		664B988026E2536A007AADC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664B987F26E2536A007AADC7 /* Preview Assets.xcassets */; };
+		664B988826E26447007AADC7 /* method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664B988726E26447007AADC7 /* method.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		664B987C26E2536A007AADC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		664B987F26E2536A007AADC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		664B988126E2536A007AADC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664B988726E26447007AADC7 /* method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = method.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				664B987826E25368007AADC7 /* classic02App.swift */,
 				664B987A26E25368007AADC7 /* ContentView.swift */,
+				664B988726E26447007AADC7 /* method.swift */,
 				664B987C26E2536A007AADC7 /* Assets.xcassets */,
 				664B988126E2536A007AADC7 /* Info.plist */,
 				664B987E26E2536A007AADC7 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				664B988826E26447007AADC7 /* method.swift in Sources */,
 				664B987B26E25368007AADC7 /* ContentView.swift in Sources */,
 				664B987926E25368007AADC7 /* classic02App.swift in Sources */,
 			);

@@ -4,10 +4,13 @@
 //
 //  Created by kai wen chen on 2021/9/3.
 //
-
 import SwiftUI
 
 struct ContentView: View {
+    
+    let m1 = method()
+    let m2 = method()
+    
     var body: some View {
         VStack {
             Text("學習如何Git版控")
@@ -22,6 +25,10 @@ struct ContentView: View {
         .background(Color(#colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)))
         .cornerRadius(16)
         .padding()
+        .onTapGesture {
+            m1.display()
+            m2.display2()
+        }
     }
 }
 
