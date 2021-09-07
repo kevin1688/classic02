@@ -15,7 +15,7 @@ struct ContentView: View {
         ScrollView(.horizontal, showsIndicators:false) {
             HStack {
                 ForEach(Sections){ sec in
-                    GeometryReader { geometry in
+                    GeometryReader { geometry in //讓物件派列如同卡片堆疊一樣
                         SectionView(section: sec)
                             .rotation3DEffect(Angle(degrees:
                                 Double(geometry.frame(in: .global).minX - 30) / -20
